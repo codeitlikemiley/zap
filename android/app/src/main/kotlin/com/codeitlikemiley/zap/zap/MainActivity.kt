@@ -1,4 +1,4 @@
-package com.codeitlikemiley.zap.zap
+package com.codeitlikemiley.zap
 
 import io.flutter.embedding.android.FlutterActivity
 
