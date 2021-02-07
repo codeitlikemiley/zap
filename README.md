@@ -12,8 +12,11 @@ Uses Offline FirebaseAuth with Firebase Emulator
 ## Getting Started
 
 ### Using FVM
+
 `fvm use beta`
+
 `fvm flutter pub get`
+
 `fvm flutter run`
 
 ### Using VSCODE
