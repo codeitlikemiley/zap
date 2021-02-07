@@ -1,16 +1,27 @@
-# zap
+# ZAP
 
-A new Flutter project.
+Uses Offline FirebaseAuth with Firebase Emulator
+
+## Requirements
+
+- Firebase CLI
+- VSCODE / FVM (Changing SDK)
+- Firebase Account
+
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Using FVM
+`fvm use beta`
+`fvm flutter pub get`
+`fvm flutter run`
 
-A few resources to get you started if this is your first Flutter project:
+### Using VSCODE
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+`ctrl+shift+p` type flutter sdk change choose `beta`
+go to pubspec.yaml `save`  to fetch dart packages
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Development
+
+1. `firebase emulators:start`
+2. on vscode press `f5` to start debugging app
